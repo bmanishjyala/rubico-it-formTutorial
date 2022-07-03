@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <h2>Personal Information</h2>
+        <div class="inputBox">
+            <label for="fname">Full Name :</label>
+            <input class="inputStyle" type="text" id="fname">
+        </div>
+        <div class="inputBox">
+            <label for="gender">Gender :</label>
+            <select class="inputStyle" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+              </select>
+        </div>
+        <div class="inputBox">
+            <label for="email">Email :</label>
+            <input class="inputStyle" type="email" id="email">
+        </div>
+        <div class="inputBox">
+            <label for="mob">Mobile No :</label>
+            <input class="inputStyle" type="number" id="mob">
+        </div>
+        
+        
+      
+       
+        <div class="inputBox">
+            <label for="dob">DOB :</label>
+  <input class="inputStyle" type="date" id="dob" >
+        </div>
+         
+        <div  >
+            <label for="mob">Language Known :</label>
+            <div class="cgGroup">
+              <div class="cbStyle">
+                <input class="checkbox" type="checkbox" id="lk1">
+                <label for="lk1"> HTML</label>
+              </div>
+              <div class="cbStyle">
+                <input class="checkbox" type="checkbox" id="lk2">
+                <label for="lk2"> CSS</label>
+              </div>
+              <div class="cbStyle">
+                <input class="checkbox" type="checkbox" id="lk3">
+                <label for="lk3"> Javascript</label>
+              </div>
+              <div class="cbStyle">
+                <input class="checkbox" type="checkbox" id="lk4">
+                <label for="lk4">Php</label>
+              </div>
+             
+          
+            </div>
+        </div>
+        <div class="inputStyle" >
+            <label for="myfile">Select a file :</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+        </div>
+        <div class="inputBox">
+            <label for="pass">Password :</label>
+  <input class="inputStyle" type="password" id="pass" >
+        </div>
+
+        <div class="cgGroup">
+            <input class="button" type="submit">
+            <input class="button" type="reset">
+        </div>
+       
+    </form>
+</body>
+
+</html>
